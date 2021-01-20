@@ -1,0 +1,159 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-container {
+    padding-top: 20px;
+    padding-right: 40px;
+    text-align: right;
+}
+
+.info-container a {
+    float: right;
+    font-size: 16px;
+    color: rgb(66, 64, 64);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .info-container img {
+      padding-top: 10px;
+  }
+
+  .icons-container {
+      padding-top: 20px;
+  }
+.icons-container .logo {
+    float: left;
+    padding-left: 50px;
+}
+
+.icons-container .favorites {
+    padding-top: 110px;
+    float: right;
+    padding-right: 20px;
+}
+.icons-container .cart {
+    padding-top: 110px;
+    padding-right: 50px;
+    float: right;
+}
+
+.menu {
+    padding-top: 200px;
+}
+
+.menu ul {
+    list-style-type: none;
+    background-color:rgb(0, 0, 241);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    margin-left: -8px;
+    margin-right: -8px;;
+    padding-left: 0;
+  }
+
+  .menu li {
+      display: inline;
+      font-size: 14px;
+      padding-right: 20px;
+      padding-left: 70px;
+  }
+
+  .meniu-vertical {
+      display: flex;
+      align-items: center;
+  }
+
+  .meniu-vertical .banner {
+      padding-left: 80px;
+  }
+
+  .meniu-vertical ul {
+      padding-left: 70px;
+      list-style-type: none;
+  }
+  
+  .meniu-vertical li {
+      font-family: Arial, Helvetica, sans-serif;
+      padding-top: 20px;
+      list-style-position: inside;
+  }
+
+  .banner {
+      float: right;
+  }
+
+  h3 {
+      padding-left: 50px;
+      padding-top: 50px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .info-details p {
+      padding-left: 60px;
+  }
+
+  .footer {
+      display: flex;
+      padding-top: 200px;
+  }
+
+  .footer .info {
+      padding-left: 50px;
+  }
+
+  .footer .plata {
+      padding-left: 250px;
+  }
+
+  .footer .asistenta {
+      padding-left: 250px;
+  }
+
+  .footer .cont {
+      padding-left: 250px;
+      padding-right: 60px;
+  }
+
+  .products {
+      display: flex;
+  }
