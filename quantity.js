@@ -14,8 +14,6 @@ function increaseValue() {
   }
 
 
-  //------------------
-
 function popupAdd() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");

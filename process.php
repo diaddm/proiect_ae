@@ -26,7 +26,7 @@
 
     $row = mysqli_fetch_array($result);
     if($row['email'] == $username && $row['parola'] == $password) {
-        header("Location:home.html"); 
+        header("Location:home.html");
     } else {
         echo("User sau parola incorecte! Va rugam reincercati");
     }
